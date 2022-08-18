@@ -16,6 +16,13 @@ impl<T> Deref for MyBox<T> {
     }
 }
 
+// smart pointers drop in reverse order
+impl<T> Drop for MyBox<T> {
+    fn drop(&mut self) {
+        println!("Dropping MyBox!")
+    }
+}
+
 fn main() {
     let x = 5;
     let y = MyBox::new(x);
@@ -31,6 +38,13 @@ fn main() {
     // &MyBox<String> -> &String -> &str
     // same as
     // hello(&(*m)[..]);
+
+    println!("m was created!");
+    // not allowed!
+    // m.drop();
+    // manually dropping the value
+    drop(m);
+    println!("m was dropped!");
 }
 
 fn hello(name: &str) {
