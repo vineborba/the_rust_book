@@ -1,11 +1,11 @@
 # The Rust Book :crab:
 
-Este repositório é um compilado de estudos sobre a linguagem de programação [Rust](https://www.rust-lang.org/), seguindo _[o livro](https://doc.rust-lang.org/learn/)_.
+Este repositório é um compilado de estudos sobre a linguagem de programação [Rust](https://www.rust-lang.org/), seguindo _[o livro](https://www.rust-lang.org/learn)_.
 
 Servirá como um manual rápido de referências para o futuro, ao mesmo
 tempo em que é documentado o progresso do estudo da linguagem através de commits.
 
-No momento o repositório é um trabalho em progresso, sendo atualizado de forma regular com o tempo.D
+No momento o repositório é um trabalho em progresso, sendo atualizado de forma regular com o tempo.
 
 :books: Materiais complementares de estudo:
 - [O livro](https://doc.rust-lang.org/book/) :orange_book:
