@@ -48,6 +48,19 @@ impl Config {
     }
 }
 
+/// Searchs for case sensitive matches of query in the given text
+///
+/// # Examples
+///
+/// ```
+/// let query = "duck";
+/// let contents = "\
+/// Duck
+/// duck
+/// dUcK
+/// ";
+/// assert_eq!(vec!["duck"], minigrep::search(query, contents));
+/// ```
 pub fn search<'a>(query: &str, contents: &'a str) -> Vec<&'a str> {
     contents
         .lines()
