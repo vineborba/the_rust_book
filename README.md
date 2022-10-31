@@ -5,7 +5,7 @@ Este repositório é um compilado de estudos sobre a linguagem de programação 
 Servirá como um manual rápido de referências para o futuro, ao mesmo
 tempo em que é documentado o progresso do estudo da linguagem através de commits.
 
-No momento o repositório é um trabalho em progresso, sendo atualizado de forma regular com o tempo.
+No momento o repositório está concluído, futuros commits serão somente refatorações básicas.
 
 :books: Materiais complementares de estudo:
 - [O livro](https://doc.rust-lang.org/book/) :orange_book:
